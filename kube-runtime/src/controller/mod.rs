@@ -798,6 +798,7 @@ where
         self
     }
 
+    /*
     /// Initiate graceful shutdown on Ctrl+C or SIGTERM (on Unix), waiting for all reconcilers to finish.
     ///
     /// Once a graceful shutdown has been initiated, Ctrl+C (or SIGTERM) can be sent again
@@ -853,6 +854,7 @@ where
         );
         self
     }
+    */
 
     /// Consume all the parameters of the Controller and start the applier stream
     ///

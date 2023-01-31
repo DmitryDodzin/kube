@@ -1,4 +1,5 @@
 overflow_delimited_expr = true
+edition = "2021"
 newline_style = "Unix"
 imports_granularity = "Crate"
 reorder_impl_items = true
